@@ -79,7 +79,6 @@ ul{
         z-index: 10000;
         color: #fff;
         padding: 0 32px;
-        
     }
     .nav-head-items:not(:last-child){
         padding: 24px 0;
