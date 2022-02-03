@@ -650,7 +650,7 @@ border: 2px solid #5B6074;
 }
 
 
-/*  
+ 
 .extension{
     width: 100%;
  
@@ -658,7 +658,6 @@ border: 2px solid #5B6074;
 .extension .container{
     width: 1000px;
     padding: 150px 40px;
-    border:  solid 1px black;
 }
 .extension__inner{
     width: 540px;
@@ -731,5 +730,91 @@ border: 2px solid #5B6074;
 }
 .extension__combined{
     position: absolute;
-    left: 0;
-} */
+    top: 70%;
+    left: -1px;
+} 
+.extension__add-brazers{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    background: #5267DF;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+    border-radius: 5px;
+    border: solid 2px transparent;
+    padding: 15px 32px;
+    position: relative;
+    top: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.extension__add-brazers:hover{
+    background-color:#fff ;
+    color: #5267DF;
+    border: solid 2px #5267df;
+}
+@media screen and (max-width:992px) {
+    .extension .container {
+        width: 86%;
+        padding: 85px 0;
+    }
+
+    .extension__inner {
+        width: 100%;
+    }
+    .extension__items{
+        width: 32%;
+    }
+    .extension__combined{
+        top: 71%;
+    }
+    .extension__add-brazers{
+        padding: 10px 26px;
+    }
+}
+@media screen and (max-width:768px) {
+    .extension .container{
+        padding: 0;
+    }
+    .extension__items{
+        width: 100%;
+        margin: 0 auto 0;
+        margin-bottom: 50px;
+    }
+
+    .extension__combined {
+        top: 71%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .extension__add-brazers {
+        padding: 15px 35px;
+    }
+}
+@media screen and (max-width:576px) {
+    .extension__title{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:451px) {
+    .extension__title {
+        font-size: 24px;
+    }
+    .extension__combined{
+        width: 100%;
+    }
+}
+@media screen and (max-width:350px) {
+    .extension__add-brazers{
+        padding: 12px 28px;
+    }
+}
+@media screen and (max-width:320px) {
+    .extension__add-brazers {
+        padding: 10px 20px;
+    }
+}
