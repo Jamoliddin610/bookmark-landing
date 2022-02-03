@@ -86,8 +86,8 @@ ul {
         display: block;
         position: absolute;
         z-index: 100;
-        top: 5%;
-        right: 5%   ;
+        top: 15%;
+        right: 15%   ;
        border:none;
        background-color: transparent;
        cursor: pointer;
