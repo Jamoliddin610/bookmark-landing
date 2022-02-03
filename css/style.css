@@ -275,46 +275,101 @@ border: 2px solid #5B6074;
     width: 600px;
     height: 358px;
 }
-@media screen and (max-width: 900px) {
-    .hero .container{
+@media screen  and (max-width:992px){
+    .hero .container {
         width: 86%;
         padding: 85px 0;
     }
-    .hero__img{
+    
+    .hero__img {
         width: 100%;
         position: relative;
         top: 0;
         left: 0;
         
     }
-    .hero__background-image{
-        top: 10%;
-        width: 70%;
+    
+    .hero__background-image {
+        top: 35%;
+        width: 75%;
+        height: 70%;
     }
-    .hero__inner{
+    
+    .hero__inner {
         text-align: center;
         padding-top: 100px;
         width: 100%;
     }
-    .hero__h1{
+    
+    .hero__h1 {
         font-size: 30px;
         line-height: 40px;
         letter-spacing: -0.09px;
     }
-    .hero__parag{
+    
+    .hero__parag {
         font-size: 15px;
         line-height: 25px;
+        padding: 0 25px;
     }
-    .hero__btns-box{
+    
+    .hero__btns-box {
         width: 100%;
         justify-content: center;
     }
+    
     .hero__btns {
         padding: 10px 17px;
     }
+    
+    
+}
+@media screen and (max-width:768px ) {
+        .hero__background-image {
+            top: 23%;
+            width: 75%;
+        }
+}
+@media screen and (max-width:576px) {
+    .hero__background-image {
+        top: 20%;
+        width: 75%;
+    }
+}
+@media screen and (max-width: 451px) {
+
+    .hero__background-image{
+        top: 10%;
+        width: 70%;
+    }
+
 
 }
-/* 
+@media screen and (max-width: 376px) {
+
+    .hero__background-image {
+        top: 0;
+        width: 70%;
+    }
+
+
+}
+@media screen and (max-width: 321px) {
+
+    .hero__background-image {
+        top: -3%;
+        width: 70%;
+    }
+    .hero__btns{
+        width: 100%;
+    }
+    .hero__btns:first-child{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+}
+/* jamoliddin finished hero and started feature section */
 .feature{
     width: 100%;
     background-color:#fff ;
@@ -434,6 +489,14 @@ border: 2px solid #5B6074;
     background:#fff ;
     border: solid 2px #5267df;
 }
+@media screen and (max-width:900px) {
+    
+    
+}
+
+
+
+/*  
 .extension{
     width: 100%;
  
