@@ -76,11 +76,11 @@ ul {
 .site-head__btn-closed{
     display: none;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .site-head__logo-link-resp {
         display: block;
         position: absolute;
-        top: 15%;
+        top: 10%;
         left: 5%;
 
     }
@@ -88,7 +88,7 @@ ul {
         display: block;
         position: absolute;
         z-index: 100;
-        top: 15%;
+        top: 10%;
         right: 5%   ;
        border:none;
        background-color: transparent;
@@ -99,7 +99,7 @@ ul {
         font-size: 30px;
     }
     .site-head__logo-link {
-        display: none;
+        /* display: none; */
     }
     .site-head__nav-list {
         display: flex;
@@ -113,8 +113,6 @@ ul {
         height: 100vh;
         background-color: hsla(229, 31%, 21%, 0.95);
         mix-blend-mode: normal;
-            /* opacity: 0.95; */
-            /* backdrop-filter: blur(32.6194px); */
         z-index: 10000;
         color: #fff;
         padding: 0 32px;
@@ -130,9 +128,14 @@ ul {
         text-align: center;
         width: 100%;
     }
+    .site-head__nav-items:first-of-type{
+        border-top:solid 1px rgba(255, 255, 255, 0.015) ;
+    }
 
     .site-head__btn {
         display: block;
+        position: relative;
+        top: -6px;
     }
 
     .site-head__nav-link {
@@ -168,7 +171,10 @@ ul {
         border: solid 2px #171b2c;
         color: #171b2c;
     }
-
+    .hidebtn,.hidelogo{
+        display: none;
+    }
+    
 }
 
 /* 
