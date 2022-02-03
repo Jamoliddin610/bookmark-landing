@@ -81,7 +81,7 @@ ul {
         display: block;
         position: absolute;
         top: 15%;
-        left: 10%;
+        left: 5%;
 
     }
     .site-head__btn-closed{
@@ -89,7 +89,7 @@ ul {
         position: absolute;
         z-index: 100;
         top: 15%;
-        right: 10%   ;
+        right: 5%   ;
        border:none;
        background-color: transparent;
        cursor: pointer;
