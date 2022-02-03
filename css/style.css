@@ -1,29 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
 
-body{
+body {
     background-color: #fff;
     font-family: 'Rubik',
-    sans-serif;
+        sans-serif;
     font-weight: 400;
     color: #242a45;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.site-head{
+
+.site-head {
     width: 100%;
     padding-top: 48px;
 }
-.site-head .container{
+
+.site-head .container {
     width: 75%;
-    padding: 0 25px ;
+    padding: 0 25px;
     background-color: #fff;
     margin-bottom: 10px;
 }
-.nav-head-link{
+
+.site-head__nav-link {
     margin-left: 48px;
     color: #242a45;
     font-weight: normal;
@@ -32,38 +37,70 @@ ul{
     text-align: right;
     letter-spacing: 1.5px;
 }
-.nav-head-items:last-child .nav-head-link{
+
+.site-head__nav-items:last-child .site-head__nav-link {
     background: #FA5959;
     border: 2px solid transparent;
-
     box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
     border-radius: 5px;
     color: #fff;
     padding: 12px 32px;
     font-weight: 500;
 }
-.nav-head-link:hover {
+
+.site-head__nav-link:hover {
     color: #fa5959;
 }
-.nav-head-items:last-child .nav-head-link:hover{
+
+.site-head__nav-items:last-child .site-head__nav-link:hover {
     background: #ffffff;
     border: 2px solid #fa5959;
     color: #fa5959;
 }
-.head-btn{
+.site-head__logo-link-resp{
+      background-color: #242a45;                
+      display: none;
+}
+
+.site-head__btn {
     width: 20px;
     height: 20px;
     border: none;
     background-color: transparent;
     display: none;
 }
-.head-burger-icon{
-    color:#242a45;
+
+.site-head__burger-icon {
+    color: #242a45;
     font-size: 35px;
 }
+.site-head__btn-closed{
+    display: none;
+}
 @media screen and (max-width: 700px) {
-    .nav-head-list{ 
-        display:flex;
+    .site-head__logo-link-resp {
+        display: block;
+
+    }
+    .site-head__btn-closed{
+        display: block;
+        position: absolute;
+        z-index: 100;
+        top: 5%;
+        right: 5%   ;
+       border:none;
+       background-color: transparent;
+       cursor: pointer;
+    }
+    .site-head__close-icon{
+        color: white;
+        font-size: 30px;
+    }
+    .site-head__logo-link {
+        display: none;
+    }
+    .site-head__nav-list {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -72,49 +109,60 @@ ul{
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: #242A45;
+        background-color: hsla(229, 31%, 21%, 0.95);
         mix-blend-mode: normal;
-        opacity: 0.95;
-        backdrop-filter: blur(32.6194px);
+            /* opacity: 0.95; */
+            /* backdrop-filter: blur(32.6194px); */
         z-index: 10000;
         color: #fff;
         padding: 0 32px;
     }
-    .nav-head-items:not(:last-child){
+
+    .site-head__nav-items:not(:last-child) {
         padding: 24px 0;
-        border-bottom:  solid 1px rgba(255, 255, 255, 0.015);
+        border-bottom: solid 1px rgba(255, 255, 255, 0.015);
         text-align: center;
         width: 100%;
     }
-    .head-btn{
-        display: block  ;
+
+    .site-head__btn {
+        display: block;
     }
-    .nav-head-link{
+
+    .site-head__nav-link {
         color: #fff;
         margin: 0;
     }
-    .nav-head-items:last-child{
+
+    .site-head__nav-items:last-child {
         width: 100%;
         padding: 24px 0;
     }
-.nav-head-items:last-child .nav-head-link {
-    width: 100%;
-    display: block;
-    background: transparent;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    box-shadow: none;
-    color: #fff;
-    padding: 12px 0;
-    font-weight: 500;
-    text-align: center;
-    transition: 0.5s;
-}
-.nav-head-items:last-child .nav-head-link:hover{
-    background-color: #fff;
-    border: solid 2px #1f2438;
-    color:#171b2c;
-}
+
+    .site-head__nav-items:last-child .site-head__nav-link {
+        width: 100%;
+        display: block;
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        box-shadow: none;
+        color: #fff;
+        padding: 12px 0;
+        font-weight: 500;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    .site-head__nav-link:hover {
+        color: #171b2c;
+    }
+
+    .site-head__nav-items:last-child .site-head__nav-link:hover {
+        background-color: #fff;
+        border: solid 2px #171b2c;
+        color: #171b2c;
+    }
+
 }
 
 /* 
