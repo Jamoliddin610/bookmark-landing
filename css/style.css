@@ -107,7 +107,7 @@ ul {
         justify-content: center;
         align-items: center;
         position: absolute;
-        bottom: 0;
+        top: -100%;
         left: 0;
         width: 100vw;
         height: 100vh;
@@ -118,6 +118,10 @@ ul {
         z-index: 10000;
         color: #fff;
         padding: 0 32px;
+        transition: 1s;
+    }
+    .show{
+        top: 0;
     }
 
     .site-head__nav-items:not(:last-child) {
