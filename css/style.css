@@ -81,7 +81,7 @@ ul {
         display: block;
         position: absolute;
         top: 10%;
-        left: 5%;
+        left: 7%;
 
     }
     .site-head__btn-closed{
@@ -89,7 +89,7 @@ ul {
         position: absolute;
         z-index: 100;
         top: 10%;
-        right: 5%   ;
+        right: 7%   ;
        border:none;
        background-color: transparent;
        cursor: pointer;
@@ -98,8 +98,9 @@ ul {
         color: white;
         font-size: 30px;
     }
-    .site-head__logo-link {
-        /* display: none; */
+    .site-head .container{
+        width: 100%;
+        padding: 0 7%;
     }
     .site-head__nav-list {
         display: flex;
