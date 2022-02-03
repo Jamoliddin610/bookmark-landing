@@ -297,7 +297,7 @@ border: 2px solid #5B6074;
     
     .hero__inner {
         text-align: center;
-        padding-top: 100px;
+        padding-top: 200px;
         width: 100%;
     }
     
@@ -323,7 +323,7 @@ border: 2px solid #5B6074;
     }
     
     
-}
+}    
 @media screen and (max-width:768px ) {
         .hero__background-image {
             top: 23%;
@@ -339,7 +339,7 @@ border: 2px solid #5B6074;
 @media screen and (max-width: 451px) {
 
     .hero__background-image{
-        top: 10%;
+        top: 0%;
         width: 70%;
     }
 
