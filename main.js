@@ -5,7 +5,7 @@ let elcloseMenuBox = document.getElementById('closeMenubox');
 elopenMenuBox.addEventListener('click',function(){
     elMenuBox.classList.add('show');
 })
-elcloseMenuBoxMenuBox.addEventListener('click',function(){
+elcloseMenuBox.addEventListener('click',function(){
     elMenuBox.classList.remove('show');
 })
 
