@@ -934,7 +934,7 @@ border: 2px solid #5B6074;
 @media screen and (max-width:768px){
     .faq .container{
         width: 86%;
-        padding: 50px;
+        padding: 50px 0;
     }
     .faq__content-box{
         width: 100%;
@@ -943,14 +943,10 @@ border: 2px solid #5B6074;
         width: 100%;
     }
 }
-@media screen and (max-width:576px) {
-    .faq__question{
-        font-size: 15px;
-    }
-}
+
 @media screen and (max-width:576px) {
     .faq__question {
-        font-size: 10px;
+        font-size: 15px;
     }
     .faq__title{
         font-size:  24px;
@@ -961,15 +957,15 @@ border: 2px solid #5B6074;
         line-height: 25px;
     }
     .faq__answer{
-        font-size: 10px;
+        font-size: 15px;
     }
     .faq__icon{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 @media screen and (max-width:371px) {
     .faq__question {
-        font-size: 8px;
+        font-size: 15px;
     }
     .faq__question-box{
        padding: 5px 24px 5px 0;
