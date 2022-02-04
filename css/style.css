@@ -918,6 +918,7 @@ border: 2px solid #5B6074;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+    
    
 }
 
@@ -976,4 +977,110 @@ border: 2px solid #5B6074;
         font-size: 12px;
     }
 }
-/* jamoliddin finished faq  */
+/* jamoliddin finished faq started contact section*/
+.contact{
+    width: 100%;
+    
+    padding: 220px 0 0 0;
+}
+.contact .container{
+    background-color: #5267df;
+    width: 100%;
+    height: 360px;
+    padding: 58px 0 74px 0;
+}
+.contact__inner{
+    width: 445px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact__about{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin-bottom:24px ;
+}
+.contact__discribtion{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    margin-bottom: 36px;
+}
+.contact__input{
+    width: 300px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #242a45;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 14px;
+}
+.contact__input::placeholder{
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: rgba(36, 42, 69, 0.250109);
+}
+.conatct__sbmit{
+    background: #fa5959;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 24px ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+@media screen and (max-width:768px) {
+    .contact{
+        padding-top: 150px;
+    }
+}
+@media screen and (max-width:451px) {
+
+    .contact .container{
+        height: 100%;
+    }
+    .contact__inner{
+        width: 86%;
+    }
+    .contact__about{
+        font-size: 10px;
+    }
+    .contact__discribtion{
+        font-size: 28px;
+    }
+    .contact__input{
+        width: 100%;
+
+        margin-bottom: 16px;
+    }
+    .conatct__sbmit{
+        width: 100%;
+    }
+}
+@media screen and (max-width:350px) {
+    .contact__about {
+        font-size: 8px;
+    }
+
+    .contact__discribtion {
+        font-size: 24px;
+    }
+    .contact__input{
+        font-size: 12px;
+    }
+}
